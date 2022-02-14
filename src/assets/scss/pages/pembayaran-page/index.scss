@@ -1,0 +1,84 @@
+.pembayaran-page {
+    .omzet-card {
+        background: #f3d320;
+        border-radius: 8px;
+
+        b,
+        h5 {
+            color: #fff;
+        }
+
+        .chart-title {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    }
+
+    .box {
+        float: left;
+        height: 50px;
+        width: 50px;
+        margin-bottom: 15px;
+        opacity: 0.5;
+        border-radius: 8px;
+        clear: both;
+        opacity: 20;
+    }
+
+    .box-grey {
+        background-color: #c4c4c4;
+    }
+
+    .box-blue {
+        background-color: #5f9ceb;
+    }
+
+    .box-pink {
+        background-color: #eb5feb;
+    }
+
+    .box-orange {
+        background-color: #eba35f;
+    }
+
+    .text-blue {
+        color: #032653;
+        font-size: 30px;
+    }
+
+    .text-pink {
+        color: #8f0588;
+        font-size: 30px;
+    }
+
+    .text-orange {
+        color: #8f3105;
+        font-size: 30px;
+    }
+
+    .text-yellow {
+        color: #8d8f05;
+        font-size: 30px;
+    }
+
+    .fa-file-alt {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .fa-list-ul {
+        font-size: 30px;
+        color: #fff;
+    }
+
+    .right-side {
+        .chart-title {
+            font-size: 14px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+    }
+
+    
+}

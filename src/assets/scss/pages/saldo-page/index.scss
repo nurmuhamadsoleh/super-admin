@@ -1,0 +1,65 @@
+.saldo-page {
+    hr{
+        border: 1px dotted #CBD2D9;
+
+    }
+    .header-text{
+        p{
+            font-size: 15px;
+            font-weight: bold;
+            margin-bottom: -5px;
+        }
+        h5{
+            font-size: 25px;
+            font-weight: bold;
+        }
+    }
+  .box-filled {
+    width: 48px;
+    height: 48px;
+    background-color: #f11f1f;
+    opacity: 0.5;
+    border-radius: 8px;
+  }
+  .fa-money-bill-wave {
+    font-size: 20px;
+  }
+  .fa-info-circle {
+    font-size: 10px;
+  }
+  .btn-1 {
+    border: 2px solid #ff9f43;
+    box-sizing: border-box;
+    border-radius: 6px;
+    background-color: #fff;
+  }
+  .btn-2 {
+    border: 2px solid #ff9f43;
+    background: #ff9f43;
+    border-radius: 6px;
+  }
+  .penarikan{
+      color: #ff9f43;
+  }
+  .box {
+    float: left;
+    height: 50px;
+    width: 50px;
+    margin-bottom: 15px;
+    opacity: 0.5;
+    border-radius: 8px;
+    clear: both;
+  }
+  .grey{
+    background-color: #e6e6e6;
+  }
+  .text-pink{
+    color:#EF10F3
+  }
+  .text-yellow{
+    color: #FF9F43
+  }
+  .text-blue{
+      color: #2F80ED
+  }
+}

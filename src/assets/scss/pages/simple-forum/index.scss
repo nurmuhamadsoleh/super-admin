@@ -1,0 +1,49 @@
+.simple-forum {}
+
+.forum-page {
+    .header-forum {}
+
+    .body-forum {
+        .thread-info {
+            .biodata {
+                line-height: 1.5em;
+                font-size: 15px;
+                font-weight: bold;
+                color: #000;
+
+                p {
+                    line-height: 30px;
+                    /* within paragraph */
+                    margin-bottom: 1px;
+                    /* between paragraphs */
+                }
+
+                p:nth-child(2) {
+                    color: gray;
+                }
+            }
+
+
+        }
+
+        .thread-body {
+            margin-top: 20px;
+
+            .thread-title {
+                font-style: normal;
+                font-weight: bold;
+                font-size: 18px;
+                line-height: 20px;
+               
+            }
+
+            .thread-content {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 12px;
+                line-height: 20px;
+                
+            }
+        }
+    }
+}

@@ -1,0 +1,74 @@
+.surat-keterangan-domisili-lembaga-page {
+  .tabbar {
+    .nav-link {
+      color: #000;
+      cursor: pointer;
+    }
+
+    .active {
+      background-color: transparent;
+      color: #000;
+      border-bottom: rgb(9, 85, 226) solid 2px;
+    }
+    .box {
+      float: left;
+      height: 25px;
+      width: 20px;
+      background-color: rgb(9, 85, 226);
+      opacity: 0.5;
+
+      clear: both;
+      opacity: 20;
+    }
+  }
+}
+.table-surat-keterangan-domisili-lembaga-page {
+  .pagesize {
+    select {
+      height: 60%;
+      border-radius: 10%;
+    }
+  }
+
+  thead {
+    background-color: #f3f2f7;
+  }
+
+  .fas {
+    cursor: pointer;
+  }
+
+  .pagination {
+    .pagination-wrap {
+      background-color: #f3f2f7 !important;
+      border-radius: 20px;
+      height: 10%;
+    }
+
+    .page-item {
+      outline: none !important;
+
+      .page-link {
+        outline: none !important;
+        background-color: #f3f2f7;
+        color: #000;
+        font-size: 14px;
+        font-weight: 600;
+        text-decoration: none;
+        transition: all 0.3s ease-in-out;
+        border-radius: 50%;
+
+        &:hover {
+          background-color: rgb(9, 85, 226);
+          color: #000;
+        }
+      }
+    }
+
+    .page-item.active {
+      .page-link {
+        background-color: rgb(9, 85, 226);
+      }
+    }
+  }
+}

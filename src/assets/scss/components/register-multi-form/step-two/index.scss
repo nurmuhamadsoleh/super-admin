@@ -1,0 +1,16 @@
+.step-two {
+    input[type="file"] {
+        display: none;
+    }
+    .custom-file-upload {
+        border: 1px solid #ccc;
+        display: inline-block;
+        padding: 9px 12px;
+        cursor: pointer;
+        background-color: rgb(105, 102, 102);
+        color: #fff;
+        
+        margin-bottom: 20px;
+    }
+    
+}

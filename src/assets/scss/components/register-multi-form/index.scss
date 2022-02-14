@@ -1,0 +1,29 @@
+.register-multi-form{
+    .greeting{
+        font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 45px;
+/* identical to box height */
+
+letter-spacing: -0.02em;
+
+    }
+    .register-text{
+        color: #3699FF;
+        font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+        a{
+            color: #3699FF;
+            font-size: 14px;
+            font-weight: 600;
+            text-decoration: none;
+            font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 27px;
+        }
+    }
+}
